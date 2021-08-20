@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+        list-style:square inside;
+}
+
+ol {
+    list-style:circle inside;
+
+}
+
+
+header > img {
+    width: 100px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    background-color: aquamarine;
+}
+
+input[type="radio submit"] {
+        cursor: pointer;
+        outline:none;
+    }
+
+    select {
+        cursor: pointer;
+        outline:none;
+    }
+
+    input[type="submit"]:last-child {
+        background-color:gold;
+    }
+    input[type="submit"]:last-child:hover {
+        color:gold;
+        background-color: rgb(99, 89, 35);
+    }
+    
+    #directions  li {
+        background-color: lightgrey;
+    }
